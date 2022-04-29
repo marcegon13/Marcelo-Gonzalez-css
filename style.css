@@ -6,13 +6,12 @@
 /*cabecera*/
 header {
     color: black;
-    width: 100%;
-    height: 40px;
     background-color: lightpink;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-
     display: flex;
+    text-align: center;
+    
 
 }
 

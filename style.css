@@ -3,6 +3,10 @@
     padding: 10px;
     
 }
+body{
+    
+    background-color: #ffd3d3;
+}
 
 /*cabecera*/
 header {
@@ -169,8 +173,6 @@ h3 {
 }
 
 
-    
-
 .btn {
     border: 2px solid #fff;
     color: white;
@@ -180,21 +182,8 @@ h3 {
     text-align: center;
     display: grid;
     
-
-
 }
-/*mobile*/
-@media only screen and (min-width: 320px) and (max-width: 576px){
-    
-}
-/*tablet*/
-@media only screen and (min-width: 577px) and (max-width: 1200px){
 
-}
-/*desktop*/
-@media only screen and (min-width: 1201px){
-
-}
 
 /*contacto*/
 
@@ -289,8 +278,21 @@ h3 {
 li.redes-container {
     margin-top: 10px;
     padding: auto;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
 
+
+}
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    
+}
+/*tablet*/
+@media only screen and (min-width: 577px) and (max-width: 1200px){
+
+}
+/*desktop*/
+@media only screen and (min-width: 1201px){
 
 }
 @media only screen and (min-width: 320px) and (max-width: 576px) {

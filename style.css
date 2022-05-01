@@ -15,8 +15,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     display: flex;
-    text-align: center;
-    
+    justify-content: center;
 
 }
 
@@ -93,10 +92,11 @@ h2 {
 
     background: rgb(255,218,223);
     background: radial-gradient(circle, rgba(255,218,223,1) 0%, rgba(232,158,169,1) 100%); 
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
-    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
 }
 
 .cover-description {
@@ -124,6 +124,7 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #333333;
     display: flex;
+    justify-content: center;
     padding: 20p;
     text-align: center;
 
@@ -155,7 +156,6 @@ h3 {
     height: auto;
     width: 100%;
     text-align: center;
-    flex-wrap: wrap;
     display: grid;
     grid-template-rows: 2fr 2fr;
     grid-template-columns: 2fr 2fr;
@@ -198,6 +198,7 @@ h3 {
 }
 
 .contact-row {
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: hidden;
@@ -211,11 +212,13 @@ h3 {
 }
 
 .contact-column.left {
-    float: left;
+    display:block;
+    justify-content: left;
 }
 
 .contact-column.right {
-    float: right;
+    display: block;
+    justify-content: right;
 }
 
 .contact-column label {

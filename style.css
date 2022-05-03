@@ -148,7 +148,7 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 18px;
 
-}
+} 
 
 .grid-trabajos-container {
     background-color: #ffd3d3;
@@ -156,11 +156,8 @@ h3 {
     height: auto;
     width: 100%;
     text-align: center;
-    display: grid;
-    grid-template-rows: 2fr 2fr;
-    grid-template-columns: 2fr 2fr;
-
 }
+
 
 .trabajos-description {
     background-color: #ffd3d3;

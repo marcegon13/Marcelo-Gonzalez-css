@@ -45,104 +45,11 @@
   .menu a {
     color: black;
     text-decoration: none;
-  
   }
-  
-  
-  /*foto*/
-  
-  img {
-    margin: auto;
-    display: flex;
-  
-  }
-  
-  /*sobre mi*/
-  
-  .text-container {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
-    display: flex;
-    text-align: center
-  }
-  
-  /*texto descriptivo*/
-  p {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
-    display: inline-block;
-    padding: 20px;
-    text-align: left;
-  
-  
-  }
-  
-  /*proyecto*/
-  h2 {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: #333333;
-    display: flex;
-  
-  }
-  
-  .img-filmscale {
-  
-    background: rgb(255,218,223);
-    background: radial-gradient(circle, rgba(255,218,223,1) 0%, rgba(232,158,169,1) 100%); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-   
-  }
-  
-  .cover-description {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
-    display: flex;
-    padding: 20p
-  }
-  
-  /*estudios*/
-  
-  
-  .estudios {
-    width: 100%;
-    height: auto;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-  }
-  
-  h2 {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
-    display: flex;
-    justify-content: center;
-    padding: 20p;
-    text-align: center;
-  
-  }
-  
-  li {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
-    display: flex;
-    padding: 20p;
-    text-align: left;
-  }
-  
+
   /*periodismo*/
-  
-  h3 {
+
+h3 {
     text-align: center;
     text-transform: none;
     font-size: 20px;
@@ -194,10 +101,11 @@
     
   }
   
-  
+
+
   /*contacto*/
-  
-  .title-contacto {
+
+.title-contacto {
     max-width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;

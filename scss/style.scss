@@ -1,19 +1,23 @@
+@import '../scss/base/extend';
+@import '../scss/base/mapas';
+
+
 * {
     margin: 10px;
     padding: 10px;
     
   }
-  body{
-    
-    background-color: #ffd3d3;
-  }
+  
+  
   
   /*cabecera*/
+  
+  
   header {
+    font-size: map-get($header, font-size-header);
     color: black;
     background-color: #ffbbc5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
     display: flex;
     justify-content: center;
   

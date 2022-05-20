@@ -8,7 +8,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcegon13/Marcelo-Gonzalez-css.git"
-    
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +15,9 @@
     "url": "https://github.com/marcegon13/Marcelo-Gonzalez-css/issues"
   },
   "homepage": "https://github.com/marcegon13/Marcelo-Gonzalez-css#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
 }

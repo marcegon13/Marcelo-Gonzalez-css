@@ -347,3 +347,280 @@ template {
 [hidden] {
   display: none;
 }
+
+
+
+@import '../scss/base/extend';
+@import '../scss/base/mapas';
+
+
+
+  
+  
+  
+  /*cabecera*/
+  
+  
+  header {
+    font-size: map-get($header, font-size-header);
+    color: black;
+    background-color: #ffbbc5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  /*Menu*/
+  
+  .menu {
+    
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  ul li {
+    margin: auto;
+    padding: auto;
+    color: black;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    justify-content: space-between;
+    display: inline;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+  
+  }
+  
+  
+  /*foto*/
+  
+  img {
+    margin: auto;
+    display: flex;
+  
+  }
+  
+  /*sobre mi*/
+  
+  .text-container {
+    font-size: 20PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    display: flex;
+    text-align: center
+  }
+  
+  /*texto descriptivo*/
+  
+  p a{
+    height: auto;
+    width: auto;
+    margin: 2px 2px 2xp 2px;
+    padding: 2px 2px 2px 2px;
+    
+  }
+  
+  
+  /*proyecto*/
+  h2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #333333;
+    display: flex;
+  
+  }
+  
+  .img-filmscale {
+  
+    background: rgb(255,218,223);
+    background: radial-gradient(circle, rgba(255,218,223,1) 0%, rgba(232,158,169,1) 100%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  /*estudios*/
+  
+  
+  .estudios {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  
+  h2 {
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 20p;
+    text-align: center;
+  
+  }
+  
+  li {
+    font-size: 20PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    display: flex;
+    padding: 20p;
+    text-align: left;
+  }
+  
+  /*periodismo*/
+  
+  h3 {
+    text-align: center;
+    text-transform: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: auto;
+  
+  } 
+  
+  .grid-trabajos-container {
+    background-color: #ffd3d3;
+    font-size: 18px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  .trabajos-description {
+    background-color: #ffd3d3;
+    text-align: center;
+    margin:auto;
+    padding: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex:  1 1 1 80px;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  
+  
+  
+  .btn{
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 10px;
+    padding: auto;
+    background: #ffd3d3;
+    align-items: center;
+    display:inline-flex;
+    text-align: center;
+    
+  }
+  
+  
+  /*contacto*/
+  
+  h1 .title-contacto {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .contact-row {
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  
+
+  .contact-column.left {
+    display: inline;
+    justify-content: left;
+  }
+  
+  .contact-column.right {
+    display:inline;
+    justify-content: right;
+    
+  }
+  
+  .contact-column label {
+    color: #606060;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .contact-column .contact-input-text {
+    background: #ffffff;
+    border: 0;
+    border-bottom: 1px solid black;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .contact-column textarea {
+    background: #ffffff;
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 1200px;
+    display: inline-block;
+  
+  }
+  
+  .--btn {
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 10px;
+    background: #ffd3d3;
+    object-position: auto;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+    
+  /*footer*/
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .cover-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+  }
+  
+  li.redes-container {
+    flex:  1 1 1 80px;
+    display:inline-block;
+    justify-content: center;
+  
+  
+  }
+  
+  
+
+  

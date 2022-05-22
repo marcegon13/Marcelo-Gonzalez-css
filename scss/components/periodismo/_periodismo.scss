@@ -48,6 +48,24 @@
   }
 
   /*periodismo*/
+  .flex-container{
+    display: flex;
+    background-color: BISQUE;
+    flex-direction: ROW;
+  }
+
+  .flex-direction div{
+    margin: 5px;
+    color: white;
+    width: 100px;
+
+  }
+
+  @media (max-width: 300px){
+    .flex-container{
+      flex-direction: column;
+    }
+  }
 
 h3 {
     text-align: center;
@@ -200,16 +218,5 @@ h3 {
   
   
   }
-  /*mobile*/
-  @media only screen and (min-width: 420px) and (max-width: 576px){
-    
-  }
-  /*tablet*/
-  @media only screen and (min-width: 577px) and (max-width: 1200px){
   
-  }
-  /*desktop*/
-  @media only screen and (min-width: 1201px){
-  
-  }
   

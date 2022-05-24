@@ -21,7 +21,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  }
+  
   
   /*Menu*/
   
@@ -79,4 +79,26 @@ h2 {
     color: #333333;
   
     
+  }
+
+  .footer {
+    text-align: center;
+  }
+  
+  .cover-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+  }
+  
+  ol li.redes-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1 80px;
+            flex: 1 1 1 80px;
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }

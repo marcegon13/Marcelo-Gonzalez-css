@@ -22,7 +22,7 @@
             justify-content: center;
   }
   
-  }
+  
   
   /*Menu*/
   
@@ -172,23 +172,13 @@
     justify-content: center;
   }
   
-  li.redes-container {
-    flex:  1 1 1 80px;
-    display:inline-block;
-    justify-content: center;
-  
-  
+  ol li.redes-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1 80px;
+            flex: 1 1 1 80px;
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  /*mobile*/
-  @media only screen and (min-width: 420px) and (max-width: 576px){
     
-  }
-  /*tablet*/
-  @media only screen and (min-width: 577px) and (max-width: 1200px){
-  
-  }
-  /*desktop*/
-  @media only screen and (min-width: 1201px){
-  
-  }
-  

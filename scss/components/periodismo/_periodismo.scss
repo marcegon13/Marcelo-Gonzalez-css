@@ -22,7 +22,7 @@
             justify-content: center;
   }
   
-  }
+  
   
   /*Menu*/
   
@@ -216,12 +216,13 @@ h3 {
     justify-content: center;
   }
   
-  li.redes-container {
-    flex:  1 1 1 80px;
-    display:inline-block;
-    justify-content: center;
-  
-  
+  ol li.redes-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1 80px;
+            flex: 1 1 1 80px;
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  
   

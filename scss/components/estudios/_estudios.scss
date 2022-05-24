@@ -82,7 +82,7 @@
     padding: 20p;
     text-align: left;
   }
-
+ /*footer*/
   .footer {
     text-align: center;
   }
@@ -95,11 +95,14 @@
     justify-content: center;
   }
   
-  ul li.redes-container {
-    flex:  1 1 1 80px;
-    display:inline-block;
-    justify-content: center;
-    list-style: none;
+  ol li.redes-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 1 80px;
+            flex: 1 1 1 80px;
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   
   

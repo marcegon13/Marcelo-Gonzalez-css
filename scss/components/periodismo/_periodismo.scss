@@ -14,8 +14,13 @@
     background-color: #ffbbc5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   
   }
   

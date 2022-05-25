@@ -25,7 +25,9 @@ header {
 .menu {
   width: 100%;
   list-style: none;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -37,7 +39,9 @@ ul li {
   width: 100%;
   height: 30px;
   text-align: center;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: inline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -73,12 +77,16 @@ ul li {
 
 .contact-column.left {
   display: inline-block;
-  justify-content: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .contact-column.right {
   display: inline-block;
-  justify-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .contact-column label {
@@ -112,7 +120,8 @@ ul li {
   color: white;
   border-radius: 10px;
   background: #ffd3d3;
-  object-position: auto;
+  -o-object-position: auto;
+     object-position: auto;
   overflow: hidden;
   text-align: center;
   display: inline-block;
@@ -128,7 +137,9 @@ ul li {
   text-decoration: underline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ol li.redes-container {
@@ -192,7 +203,9 @@ header {
 .menu {
   width: 100%;
   list-style: none;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -203,7 +216,9 @@ ul li {
   width: 100%;
   height: 30px;
   text-align: center;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: inline;
   font-size: 20px;
   font-family: Verdana, Tahoma, sans-serif;
@@ -219,17 +234,24 @@ ul li {
   width: 100%;
   height: auto;
   text-align: left;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
 }
 
 h2 {
   font-size: 20PX;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 20p;
   text-align: center;
 }
@@ -240,7 +262,9 @@ ul li {
   color: #333333;
   display: inline-block;
   padding: 20p;
-  align-items: none;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
 }
 
 /*footer*/
@@ -253,7 +277,9 @@ ul li {
   text-decoration: underline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ol li.redes-container {
@@ -317,7 +343,9 @@ header {
 .menu {
   width: 100%;
   list-style: none;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -328,7 +356,9 @@ ul li {
   width: 100%;
   height: 30px;
   text-align: center;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: inline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -341,9 +371,14 @@ ul li {
 
 /*periodismo*/
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: BISQUE;
-  flex-direction: ROW;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: ROW;
+          flex-direction: ROW;
 }
 
 .flex-direction div {
@@ -354,9 +389,13 @@ ul li {
 
 @media (max-width: 300px) {
   .flex-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
+
 h3 {
   text-align: center;
   text-transform: none;
@@ -375,8 +414,11 @@ h2 {
   background-color: #ffd3d3;
   font-size: 18px;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .trabajos-description {
@@ -387,7 +429,9 @@ h2 {
   text-align: center;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  flex: 1 1 1 80px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 1 80px;
+          flex: 1 1 1 80px;
   max-width: 100%;
   min-width: 100%;
 }
@@ -398,7 +442,11 @@ h2 {
   border-radius: 10px;
   padding: auto;
   background: #ffd3d3;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   text-align: center;
 }
@@ -428,12 +476,16 @@ h2 {
 
 .contact-column.left {
   display: inline-block;
-  justify-content: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .contact-column.right {
   display: inline-block;
-  justify-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .contact-column label {
@@ -467,7 +519,8 @@ h2 {
   color: white;
   border-radius: 10px;
   background: #ffd3d3;
-  object-position: auto;
+  -o-object-position: auto;
+     object-position: auto;
   overflow: hidden;
   text-align: center;
   display: inline-block;
@@ -483,7 +536,9 @@ h2 {
   text-decoration: underline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ol li.redes-container {
@@ -547,7 +602,9 @@ header {
 .menu {
   width: 100%;
   list-style: none;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -558,7 +615,9 @@ ul li {
   width: 100%;
   height: 30px;
   text-align: center;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: inline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -575,16 +634,22 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .img-filmscale {
-  background: rgb(255, 218, 223);
-  background: radial-gradient(circle, rgb(255, 218, 223) 0%, rgb(232, 158, 169) 100%);
+  background: #ffdadf;
+  background: radial-gradient(circle, #ffdadf 0%, #e89ea9 100%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 p {
@@ -602,7 +667,9 @@ p {
   text-decoration: underline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ol li.redes-container {
@@ -666,7 +733,9 @@ body {
 .menu {
   width: 100%;
   list-style: none;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -677,7 +746,9 @@ ul li {
   width: 100%;
   height: 30px;
   text-align: center;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: inline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -691,6 +762,8 @@ ul li {
 /*foto*/
 img {
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -699,6 +772,8 @@ img {
   font-size: 20PX;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
 }
@@ -738,12 +813,16 @@ p {
 
 .contact-column.left {
   display: inline-block;
-  justify-content: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .contact-column.right {
   display: inline-block;
-  justify-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .contact-column label {
@@ -777,7 +856,8 @@ p {
   color: white;
   border-radius: 10px;
   background: #ffd3d3;
-  object-position: auto;
+  -o-object-position: auto;
+     object-position: auto;
   overflow: hidden;
   text-align: center;
   display: inline-block;
@@ -793,7 +873,9 @@ p {
   text-decoration: underline;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*footer*/
@@ -831,5 +913,4 @@ ol li.redes-container {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-
 /*# sourceMappingURL=style.css.map */

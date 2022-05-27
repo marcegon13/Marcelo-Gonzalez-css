@@ -165,11 +165,6 @@ ol li.redes-container {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-* {
-  margin: 10px;
-  padding: 10px;
-}
-
 body {
   background-color: #ffd3d3;
 }
@@ -220,12 +215,10 @@ ul li {
   height: auto;
   text-align: left;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
 }
 
 h2 {
-  font-size: 20PX;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333333;
   display: flex;
@@ -234,13 +227,11 @@ h2 {
   text-align: center;
 }
 
-ol li {
-  font-size: 20PX;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #333333;
-  display: inline-block;
-  padding: 20p;
-  list-style: none;
+.img-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 150px 150px;
 }
 
 /*footer*/
@@ -266,30 +257,6 @@ ol li.redes-container {
   justify-content: center;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
 * {
   margin: 10px;
   padding: 10px;
@@ -388,8 +355,6 @@ h2 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   flex: 1 1 1 80px;
-  max-width: 100%;
-  min-width: 100%;
 }
 
 .btn {

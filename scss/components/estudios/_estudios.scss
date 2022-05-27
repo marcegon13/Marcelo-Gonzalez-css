@@ -1,11 +1,5 @@
-* {
-    margin: 10px;
-    padding: 10px;
-    
-  }
-  body{
-    
-    background-color: #ffd3d3;
+ body{
+     background-color: #ffd3d3;
   }
   
   /*cabecera*/
@@ -59,12 +53,11 @@
     height: auto;
     text-align: left;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    
   }
   
   h2 {
-    font-size: 20PX;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #333333;
     display: flex;
@@ -73,15 +66,16 @@
     text-align: center;
   
   }
-  
-  ol li {
-    font-size: 20PX;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #333333;
-    display: inline-block;
-    padding: 20p;
-    list-style: none;
+
+    .img-container {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 200px 200px;
+      grid-template-rows: 150px 150px;
+    
   }
+  
+  
  /*footer*/
   .footer {
     text-align: center;
@@ -105,71 +99,4 @@
             justify-content: center;
   }
   
-  /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  //CSS
-  
-}
-  
- 
-  

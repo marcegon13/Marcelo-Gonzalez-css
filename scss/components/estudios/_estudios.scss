@@ -64,19 +64,11 @@
     justify-content: center;
     padding: 20p;
     text-align: center;
-  
   }
+ 
 
-    .img-container {
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: 200px 200px;
-      grid-template-rows: 150px 150px;
-    
-  }
+  /*footer*/
   
-  
- /*footer*/
   .footer {
     text-align: center;
   }
@@ -98,5 +90,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+ 
   
-
+ 
+  

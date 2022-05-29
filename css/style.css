@@ -646,6 +646,12 @@ ul li {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 570px) {
+  .menu {
+    height: 230px;
+    flex-direction: column;
+  }
+}
 /*foto*/
 img {
   margin: auto;
@@ -690,7 +696,7 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.contact-column {
+.contact-row {
   width: 50%;
 }
 

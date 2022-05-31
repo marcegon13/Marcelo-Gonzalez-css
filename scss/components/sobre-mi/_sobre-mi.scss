@@ -1,15 +1,11 @@
-* {
-    margin: 10px;
-    padding: 10px;
-    
-  }
-  body{
+body{
     
     background-color: #ffd3d3;
   }
   
+  
   /*cabecera*/
-  .theader {
+  .header {
     color: black;
     background-color: #ffbbc5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -52,22 +48,6 @@
     text-decoration: none;
   
   }
-  @media only screen and (max-width: 570px){
-    .menu {
-      height: 230px;
-      flex-direction: column;
-    }
-  }
-  
-  
-  /*foto*/
-  
-  img {
-    margin: auto;
-    display: flex;
-  
-  }
-  
   /*sobre mi*/
   
   .text-container {
@@ -104,14 +84,9 @@
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    overflow: hidden;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   
-  }
-  
-  .contact-row {
-    width: 50%;
   }
   
   .contact-column.left {
@@ -133,9 +108,9 @@
   
   .contact-column .contact-input-text {
     background: #ffffff;
-    border: 0;
+    border: 1px;
     border-bottom: 1px solid black;
-    height: 40px;
+    height: 30px;
     width: 100%;
     font-size: 18px;
     padding-left: 10px;
@@ -190,71 +165,3 @@
   }
     
 
-  /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  //CSS
-  
-}
-  
- 
-  
